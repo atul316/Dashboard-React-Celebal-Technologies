@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 
 const Sidebar = () => {
   return (
-    <div className="w-64 h-screen bg-gray-200 dark:bg-gray-800 ">
+    <div className="w-64 h-screen bg-gray-200 dark:bg-gray-900 ">
       <div className="p-4">
-        <h2 className="text-lg font-bold">Admin Pannel</h2>
+        <h2 className="text-lg font-bold">Dashboard</h2>
       </div>
       <nav>
         <Link to="/" className="block p-4">Ecommerce</Link>

@@ -28,7 +28,7 @@ const options = {
 
 const ChartSection = () => {
   return (
-    <div className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow">
+    <div className="p-4 bg-white rounded-lg shadow dark:bg-gray-800">
       <Line data={data} options={options} />
     </div>
   );
